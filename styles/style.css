@@ -203,3 +203,125 @@ nav{
     color:#6b7280;
     font-size:15px;
 }
+
+.pricing-section{
+    padding:120px 0;
+    background:#ffffff;
+}
+
+.pricing-section h2{
+    text-align:center;
+    font-size:56px;
+    font-weight:700;
+    color:#0f172a;
+}
+
+.pricing-subtitle{
+    text-align:center;
+    margin-top:12px;
+    color:#6b7280;
+    font-size:17px;
+    margin-bottom:60px;
+}
+
+.pricing-container{
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    gap:30px;
+}
+
+.pricing-card{
+    width:360px;
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:14px;
+    padding:30px;
+}
+
+.plan-name{
+    font-size:12px;
+    font-weight:700;
+    color:#6b7280;
+    letter-spacing:1px;
+}
+
+.pricing-card h3{
+    font-size:56px;
+    margin-top:15px;
+    color:#111827;
+}
+
+.per-person{
+    color:#6b7280;
+    font-size:15px;
+    margin-top:6px;
+}
+
+.pricing-card hr{
+    margin:28px 0;
+    border:none;
+    border-top:1px solid #e5e7eb;
+}
+
+.pricing-card ul{
+    list-style:none;
+}
+
+.pricing-card ul li{
+    margin-bottom:18px;
+    color:#374151;
+    font-size:15px;
+    position:relative;
+    padding-left:22px;
+}
+
+.pricing-card ul li::before{
+    content:"•";
+    color:#2563eb;
+    position:absolute;
+    left:0;
+}
+
+.outline-btn{
+    width:100%;
+    height:50px;
+    margin-top:30px;
+    border:2px solid #2563eb;
+    background:#fff;
+    color:#2563eb;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+}
+
+.pro-card{
+    background:#02152f;
+    color:#fff;
+}
+
+.pro-card h3,
+.pro-card .plan-name,
+.pro-card .per-person,
+.pro-card ul li{
+    color:#fff;
+}
+
+.pro-card hr{
+    border-top:1px solid rgba(255,255,255,0.15);
+}
+
+.pro-btn{
+    width:100%;
+    height:50px;
+    margin-top:30px;
+    border:none;
+    background:#2563eb;
+    color:#fff;
+    border-radius:10px;
+    font-size:16px;
+    font-weight:600;
+    cursor:pointer;
+}
