@@ -325,3 +325,45 @@ nav{
     font-weight:600;
     cursor:pointer;
 }
+
+.newsletter{
+    text-align:center;
+    padding:100px 20px;
+    background:#f8fafc;
+}
+
+.newsletter h2{
+    font-size:48px;
+    color:#0f172a;
+    margin-bottom:15px;
+}
+
+.newsletter p{
+    color:#64748b;
+    font-size:18px;
+    margin-bottom:35px;
+}
+
+.newsletter-box{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.newsletter-box input{
+    width:320px;
+    padding:15px;
+    border:1px solid #d1d5db;
+    border-radius:10px;
+    font-size:16px;
+}
+
+.newsletter-box button{
+    padding:15px 30px;
+    border:none;
+    background:#2563eb;
+    color:#fff;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+}
